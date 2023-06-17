@@ -26,8 +26,11 @@ amounting to 2287 data points.
 
 ### 1. Set up Conda environment
 ```
-conda env create -f env.yml
+conda env create -f env.yml -> This doesn't work on mac. Just do:
+
+conda env create micstrenv
 conda activate micstrenv
+conda install python pytorch scipy scikit-learn -y
 ```
 
 ### 2. Download the data
