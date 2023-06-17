@@ -3,6 +3,7 @@
 validation_index=8
 testing_index=9
 hyper_ID=20
+SLURM_ARRAY_TASK_ID='~\test\'
 
 
 python model.py \
