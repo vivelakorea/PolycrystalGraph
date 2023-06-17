@@ -1,10 +1,12 @@
 #!/usr/bin/env bash
 
 if ! command brew
+then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 if ! command wget
+then
     brew install wget
 fi
 
